@@ -22,6 +22,7 @@ const breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
 const isProfitablePerUnit = profitPerUnit > 0;
 
 //Print to Console 
+
 console.log("Product Pricing Assistant");
 
 console.log("Product Name:             " + productName);

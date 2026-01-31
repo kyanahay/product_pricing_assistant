@@ -1,6 +1,6 @@
 // Product Pricing Assistant
 
-console.log("Hello Mr. Reed from Ky behind the console.")
+console.log("Product Pricing Assistant")
 
 // Declare variables
 
@@ -26,9 +26,9 @@ const isProfitablePerUnit = profitPerUnit > 0
 
 //Print to Console 
 
-console.log("Product Name:", productName)
-console.log("Discounted Price:", discountedPrice)
-console.log("Final Price with Tax:", finalPriceWithTax)
-console.log("Profit Per Unit:", profitPerUnit)
-console.log("Break Even Units:", breakEvenUnits)
-console.log("Is Profitable Per Unit:", isProfitablePerUnit)
+console.log("Product Name:             " + productName)
+console.log("Discounted Price:         " + discountedPrice.toFixed(2))
+console.log("Final Price with Tax:    $" + finalPriceWithTax.toFixed(2))
+console.log("Profit Per Unit:         $" + profitPerUnit.toFixed(2))
+console.log("Break Even Units:         " + breakEvenUnits)
+console.log("Is Profitable Per Unit:   " + isProfitablePerUnit)
